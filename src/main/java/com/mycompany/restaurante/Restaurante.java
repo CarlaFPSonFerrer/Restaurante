@@ -4,6 +4,7 @@
  */
 package com.mycompany.restaurante;
 
+import java.awt.Color;
 import javax.swing.JOptionPane;
 
 /**
@@ -20,6 +21,9 @@ public class Restaurante extends javax.swing.JFrame {
         this.setLocationRelativeTo(null);
        
     }
+    
+    Color greenPerso = new Color(102,255,102);
+    Color redPerso = new Color(255,51,51);
 
     int mesa1 = 0;
     int mesa2 = 0;
@@ -35,6 +39,7 @@ public class Restaurante extends javax.swing.JFrame {
     int mesa12 = 0;
     int totalClientes = 0;
     int clientesMesa = 0;
+    int clientesBarra = 0;
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -72,6 +77,19 @@ public class Restaurante extends javax.swing.JFrame {
         jLabelTotalClientes = new javax.swing.JLabel();
         jLabelEnMesa = new javax.swing.JLabel();
         jLabelEnBarra = new javax.swing.JLabel();
+        jLabelBarra = new javax.swing.JLabel();
+        jToggleButtonBarra1 = new javax.swing.JToggleButton();
+        jToggleButtonBarra2 = new javax.swing.JToggleButton();
+        jToggleButtonBarra3 = new javax.swing.JToggleButton();
+        jToggleButtonBarra4 = new javax.swing.JToggleButton();
+        jToggleButtonBarra5 = new javax.swing.JToggleButton();
+        jToggleButtonBarra6 = new javax.swing.JToggleButton();
+        jToggleButtonBarra7 = new javax.swing.JToggleButton();
+        jToggleButtonBarra8 = new javax.swing.JToggleButton();
+        jToggleButtonBarra9 = new javax.swing.JToggleButton();
+        jToggleButtonBarra10 = new javax.swing.JToggleButton();
+        jToggleButtonBarra11 = new javax.swing.JToggleButton();
+        jToggleButtonBarra12 = new javax.swing.JToggleButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -216,6 +234,94 @@ public class Restaurante extends javax.swing.JFrame {
         jLabelEnBarra.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabelEnBarra.setText("En barra: 0/12");
 
+        jLabelBarra.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabelBarra.setText("Barra 0/12");
+        jLabelBarra.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        jToggleButtonBarra1.setBackground(new java.awt.Color(102, 255, 102));
+        jToggleButtonBarra1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButtonBarra1ActionPerformed(evt);
+            }
+        });
+
+        jToggleButtonBarra2.setBackground(new java.awt.Color(102, 255, 102));
+        jToggleButtonBarra2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButtonBarra2ActionPerformed(evt);
+            }
+        });
+
+        jToggleButtonBarra3.setBackground(new java.awt.Color(102, 255, 102));
+        jToggleButtonBarra3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButtonBarra3ActionPerformed(evt);
+            }
+        });
+
+        jToggleButtonBarra4.setBackground(new java.awt.Color(102, 255, 102));
+        jToggleButtonBarra4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButtonBarra4ActionPerformed(evt);
+            }
+        });
+
+        jToggleButtonBarra5.setBackground(new java.awt.Color(102, 255, 102));
+        jToggleButtonBarra5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButtonBarra5ActionPerformed(evt);
+            }
+        });
+
+        jToggleButtonBarra6.setBackground(new java.awt.Color(102, 255, 102));
+        jToggleButtonBarra6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButtonBarra6ActionPerformed(evt);
+            }
+        });
+
+        jToggleButtonBarra7.setBackground(new java.awt.Color(102, 255, 102));
+        jToggleButtonBarra7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButtonBarra7ActionPerformed(evt);
+            }
+        });
+
+        jToggleButtonBarra8.setBackground(new java.awt.Color(102, 255, 102));
+        jToggleButtonBarra8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButtonBarra8ActionPerformed(evt);
+            }
+        });
+
+        jToggleButtonBarra9.setBackground(new java.awt.Color(102, 255, 102));
+        jToggleButtonBarra9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButtonBarra9ActionPerformed(evt);
+            }
+        });
+
+        jToggleButtonBarra10.setBackground(new java.awt.Color(102, 255, 102));
+        jToggleButtonBarra10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButtonBarra10ActionPerformed(evt);
+            }
+        });
+
+        jToggleButtonBarra11.setBackground(new java.awt.Color(102, 255, 102));
+        jToggleButtonBarra11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButtonBarra11ActionPerformed(evt);
+            }
+        });
+
+        jToggleButtonBarra12.setBackground(new java.awt.Color(102, 255, 102));
+        jToggleButtonBarra12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButtonBarra12ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -232,10 +338,6 @@ public class Restaurante extends javax.swing.JFrame {
                         .addGap(85, 85, 85)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jComboBoxCapacidad11, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(jComboBoxCapacidad12, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                            .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                     .addComponent(jComboBoxCapacidad9, javax.swing.GroupLayout.Alignment.LEADING, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(jLabelMesa9, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -246,7 +348,11 @@ public class Restaurante extends javax.swing.JFrame {
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jLabelMesa11, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
-                                .addComponent(jLabelMesa12, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                .addComponent(jLabelMesa12, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jComboBoxCapacidad11, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(jComboBoxCapacidad12, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(148, 148, 148)
@@ -290,6 +396,35 @@ public class Restaurante extends javax.swing.JFrame {
                             .addComponent(jLabelMesa2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jComboBoxCapacidad2, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(168, 168, 168))))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabelBarra, javax.swing.GroupLayout.PREFERRED_SIZE, 642, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jToggleButtonBarra1, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButtonBarra2, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButtonBarra3, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButtonBarra4, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButtonBarra5, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButtonBarra6, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButtonBarra7, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButtonBarra8, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButtonBarra9, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButtonBarra10, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButtonBarra11, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButtonBarra12, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(140, 140, 140))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -308,51 +443,72 @@ public class Restaurante extends javax.swing.JFrame {
                         .addComponent(jLabelEnMesa)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jLabelEnBarra)))
-                .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jComboBoxCapacidad3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jComboBoxCapacidad4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jComboBoxCapacidad5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(52, 52, 52)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabelMesa6, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(jLabelMesa7, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jLabelMesa8, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jComboBoxCapacidad6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jComboBoxCapacidad7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jComboBoxCapacidad8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(75, 75, 75)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jLabelMesa2, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabelMesa1, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(52, 52, 52)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabelMesa6, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                        .addComponent(jLabelMesa7, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(jLabelMesa8, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jComboBoxCapacidad1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jComboBoxCapacidad2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                    .addComponent(jComboBoxCapacidad6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jComboBoxCapacidad7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jComboBoxCapacidad8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(75, 75, 75)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(jLabelMesa2, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(jLabelMesa1, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                            .addComponent(jComboBoxCapacidad1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jComboBoxCapacidad2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(18, 18, 18)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(jLabelMesa9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(jLabelMesa10, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jComboBoxCapacidad9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jComboBoxCapacidad10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(25, 25, 25)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(jLabelMesa11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(jLabelMesa12, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jComboBoxCapacidad11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jComboBoxCapacidad12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 88, Short.MAX_VALUE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(jToggleButtonBarra7, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jToggleButtonBarra8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jToggleButtonBarra9, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jToggleButtonBarra10, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jToggleButtonBarra11, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jToggleButtonBarra12, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(jToggleButtonBarra2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jToggleButtonBarra3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jToggleButtonBarra4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jToggleButtonBarra5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jToggleButtonBarra6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(18, 18, 18)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jLabelMesa9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabelMesa10, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jComboBoxCapacidad9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jComboBoxCapacidad10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(25, 25, 25)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jLabelMesa11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabelMesa12, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jComboBoxCapacidad11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jComboBoxCapacidad12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(183, Short.MAX_VALUE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jToggleButtonBarra1, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabelBarra, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(21, 21, 21))
         );
 
         pack();
@@ -360,154 +516,449 @@ public class Restaurante extends javax.swing.JFrame {
 
     private void jComboBoxCapacidad9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxCapacidad9ActionPerformed
         mesa9 = Integer.parseInt(jComboBoxCapacidad9.getSelectedItem().toString());
-        totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
+        totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
         clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
-        if (totalClientes <= 54) {
+        if (clientesMesa <= 54 && totalClientes <= 60) {
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         } else {
-            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa");
+            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa/establecimiento.");
+            jComboBoxCapacidad9.setSelectedIndex(0);
+            mesa9 = Integer.parseInt(jComboBoxCapacidad9.getSelectedItem().toString());
+            totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
+            clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         }
         
     }//GEN-LAST:event_jComboBoxCapacidad9ActionPerformed
 
     private void jComboBoxCapacidad10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxCapacidad10ActionPerformed
         mesa10 = Integer.parseInt(jComboBoxCapacidad10.getSelectedItem().toString());
-        totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
+        totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
         clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
-        if (totalClientes <= 54) {
+        if (clientesMesa <= 54 && totalClientes <= 60) {
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         } else {
-            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa");
+            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa/establecimiento.");
+            jComboBoxCapacidad10.setSelectedIndex(0);
+            mesa10 = Integer.parseInt(jComboBoxCapacidad10.getSelectedItem().toString());
+            totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
+            clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         }
     }//GEN-LAST:event_jComboBoxCapacidad10ActionPerformed
 
     private void jComboBoxCapacidad11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxCapacidad11ActionPerformed
         mesa11 = Integer.parseInt(jComboBoxCapacidad11.getSelectedItem().toString());
-        totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
+        totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
         clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
-        if (totalClientes <= 54) {
+        if (clientesMesa <= 54 && totalClientes <= 60) {
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         } else {
-            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa");
+            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa/establecimiento.");
+            jComboBoxCapacidad11.setSelectedIndex(0);
+            mesa11 = Integer.parseInt(jComboBoxCapacidad11.getSelectedItem().toString());
+            totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
+            clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         }
     }//GEN-LAST:event_jComboBoxCapacidad11ActionPerformed
 
     private void jComboBoxCapacidad12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxCapacidad12ActionPerformed
         mesa12 = Integer.parseInt(jComboBoxCapacidad12.getSelectedItem().toString());
-        totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
+        totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
         clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
-        if (totalClientes <= 54) {
+        if (clientesMesa <= 54 && totalClientes <= 60) {
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         } else {
-            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa");
+            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa/establecimiento.");
+            jComboBoxCapacidad12.setSelectedIndex(0);
+            mesa12 = Integer.parseInt(jComboBoxCapacidad12.getSelectedItem().toString());
+            totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
+            clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         }
     }//GEN-LAST:event_jComboBoxCapacidad12ActionPerformed
 
     private void jComboBoxCapacidad1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxCapacidad1ActionPerformed
         mesa1 = Integer.parseInt(jComboBoxCapacidad1.getSelectedItem().toString());
-        totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
+        totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
         clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
-        if (totalClientes <= 54) {
+        if (clientesMesa <= 54 && totalClientes <= 60) {
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         } else {
-            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa");
+            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa/establecimiento.");
+            jComboBoxCapacidad1.setSelectedIndex(0);
+            mesa1 = Integer.parseInt(jComboBoxCapacidad1.getSelectedItem().toString());
+            totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
+            clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         }
     }//GEN-LAST:event_jComboBoxCapacidad1ActionPerformed
 
     private void jComboBoxCapacidad2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxCapacidad2ActionPerformed
         mesa2 = Integer.parseInt(jComboBoxCapacidad2.getSelectedItem().toString());
-        totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
+        totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
         clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
-        if (totalClientes <= 54) {
+        if (clientesMesa <= 54 && totalClientes <= 60) {
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         } else {
-            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa");
+            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa/establecimiento.");
+            jComboBoxCapacidad2.setSelectedIndex(0);
+            mesa2 = Integer.parseInt(jComboBoxCapacidad2.getSelectedItem().toString());
+            totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
+            clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         }
     }//GEN-LAST:event_jComboBoxCapacidad2ActionPerformed
 
     private void jComboBoxCapacidad3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxCapacidad3ActionPerformed
         mesa3 = Integer.parseInt(jComboBoxCapacidad3.getSelectedItem().toString());
-        totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
+        totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
         clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
-        if (totalClientes <= 54) {
+        if (clientesMesa <= 54 && totalClientes <= 60) {
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         } else {
-            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa");
+            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa/establecimiento.");
+            jComboBoxCapacidad3.setSelectedIndex(0);
+            mesa3 = Integer.parseInt(jComboBoxCapacidad3.getSelectedItem().toString());
+            totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
+            clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         }
     }//GEN-LAST:event_jComboBoxCapacidad3ActionPerformed
 
     private void jComboBoxCapacidad4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxCapacidad4ActionPerformed
         mesa4 = Integer.parseInt(jComboBoxCapacidad4.getSelectedItem().toString());
-        totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
+        totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
         clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
-        if (totalClientes <= 54) {
+        if (clientesMesa <= 54 && totalClientes <= 60) {
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         } else {
-            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa");
+            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa/establecimiento.");
+            jComboBoxCapacidad4.setSelectedIndex(0);
+            mesa4 = Integer.parseInt(jComboBoxCapacidad4.getSelectedItem().toString());
+            totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
+            clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         }
     }//GEN-LAST:event_jComboBoxCapacidad4ActionPerformed
 
     private void jComboBoxCapacidad5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxCapacidad5ActionPerformed
         mesa5 = Integer.parseInt(jComboBoxCapacidad5.getSelectedItem().toString());
-        totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
+        totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
         clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
-        if (totalClientes <= 54) {
+        if (clientesMesa <= 54 && totalClientes <= 60) {
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         } else {
-            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa");
+            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa/establecimiento.");
+            jComboBoxCapacidad5.setSelectedIndex(0);
+            mesa5 = Integer.parseInt(jComboBoxCapacidad5.getSelectedItem().toString());
+            totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
+            clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         }
     }//GEN-LAST:event_jComboBoxCapacidad5ActionPerformed
 
     private void jComboBoxCapacidad6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxCapacidad6ActionPerformed
         mesa6 = Integer.parseInt(jComboBoxCapacidad6.getSelectedItem().toString());
-        totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
+        totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
         clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
-        if (totalClientes <= 54) {
+        if (clientesMesa <= 54 && totalClientes <= 60) {
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         } else {
-            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa");
+            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa/establecimiento.");
+            jComboBoxCapacidad6.setSelectedIndex(0);
+            mesa6 = Integer.parseInt(jComboBoxCapacidad6.getSelectedItem().toString());
+            totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
+            clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         }
     }//GEN-LAST:event_jComboBoxCapacidad6ActionPerformed
 
     private void jComboBoxCapacidad7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxCapacidad7ActionPerformed
         mesa7 = Integer.parseInt(jComboBoxCapacidad7.getSelectedItem().toString());
-        totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
+        totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
         clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
-        if (totalClientes <= 54) {
+        if (clientesMesa <= 54 && totalClientes <= 60) {
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         } else {
-            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa");
+            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa/establecimiento.");
+            jComboBoxCapacidad7.setSelectedIndex(0);
+            mesa7 = Integer.parseInt(jComboBoxCapacidad7.getSelectedItem().toString());
+            totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
+            clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         }
     }//GEN-LAST:event_jComboBoxCapacidad7ActionPerformed
 
     private void jComboBoxCapacidad8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxCapacidad8ActionPerformed
         mesa8 = Integer.parseInt(jComboBoxCapacidad8.getSelectedItem().toString());
-        totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
-        clientesMesa = totalClientes;
-        if (totalClientes <= 54) {
+        totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
+        clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
+        if (clientesMesa <= 54 && totalClientes <= 60) {
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         } else {
-            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa");
+            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa/establecimiento.");
             jComboBoxCapacidad8.setSelectedIndex(0);
             mesa8 = Integer.parseInt(jComboBoxCapacidad8.getSelectedItem().toString());
-            totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
-            clientesMesa = totalClientes;
+            totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
+            clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         }
     }//GEN-LAST:event_jComboBoxCapacidad8ActionPerformed
+
+    private void jToggleButtonBarra2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButtonBarra2ActionPerformed
+        if (jToggleButtonBarra2.isSelected()) {
+            jToggleButtonBarra2.setBackground(redPerso);
+            totalClientes++;
+            clientesBarra++;
+        } else {
+            jToggleButtonBarra2.setBackground(greenPerso);
+            totalClientes--;
+            clientesBarra--;
+        }
+        if (totalClientes <= 60 && clientesBarra <=12) {
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
+        } else {
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
+        }
+    }//GEN-LAST:event_jToggleButtonBarra2ActionPerformed
+
+    private void jToggleButtonBarra1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButtonBarra1ActionPerformed
+        if (jToggleButtonBarra1.isSelected()) {
+            jToggleButtonBarra1.setBackground(redPerso);
+            totalClientes++;
+            clientesBarra++;
+            
+        } else {
+            jToggleButtonBarra1.setBackground(greenPerso);
+            totalClientes--;
+            clientesBarra--;
+        }
+        if (totalClientes <= 60 && clientesBarra <=12) {
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
+        } else {
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
+        }
+    }//GEN-LAST:event_jToggleButtonBarra1ActionPerformed
+
+    private void jToggleButtonBarra3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButtonBarra3ActionPerformed
+        if (jToggleButtonBarra3.isSelected()) {
+            jToggleButtonBarra3.setBackground(redPerso);
+            totalClientes++;
+            clientesBarra++;
+        } else {
+            jToggleButtonBarra3.setBackground(greenPerso);
+            totalClientes--;
+            clientesBarra--;
+        }
+        if (totalClientes <= 60 && clientesBarra <=12) {
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
+        } else {
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
+        }    
+    }//GEN-LAST:event_jToggleButtonBarra3ActionPerformed
+
+    private void jToggleButtonBarra4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButtonBarra4ActionPerformed
+        if (jToggleButtonBarra4.isSelected()) {
+            jToggleButtonBarra4.setBackground(redPerso);
+            totalClientes++;
+            clientesBarra++;
+        } else {
+            jToggleButtonBarra4.setBackground(greenPerso);
+            totalClientes--;
+            clientesBarra--;
+        }
+        if (totalClientes <= 60 && clientesBarra <=12) {
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
+        } else {
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
+        }
+    }//GEN-LAST:event_jToggleButtonBarra4ActionPerformed
+
+    private void jToggleButtonBarra5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButtonBarra5ActionPerformed
+        if (jToggleButtonBarra5.isSelected()) {
+            jToggleButtonBarra5.setBackground(redPerso);
+            totalClientes++;
+            clientesBarra++;
+        } else {
+            jToggleButtonBarra5.setBackground(greenPerso);
+            totalClientes--;
+            clientesBarra--;
+        }
+        if (totalClientes <= 60 && clientesBarra <=12) {
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
+        } else {
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
+        }
+    }//GEN-LAST:event_jToggleButtonBarra5ActionPerformed
+
+    private void jToggleButtonBarra6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButtonBarra6ActionPerformed
+        if (jToggleButtonBarra6.isSelected()) {
+            jToggleButtonBarra6.setBackground(redPerso);
+            totalClientes++;
+            clientesBarra++;
+        } else {
+            jToggleButtonBarra6.setBackground(greenPerso);
+            totalClientes--;
+            clientesBarra--;
+        }
+        if (totalClientes <= 60 && clientesBarra <=12) {
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
+        } else {
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
+        }
+    }//GEN-LAST:event_jToggleButtonBarra6ActionPerformed
+
+    private void jToggleButtonBarra7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButtonBarra7ActionPerformed
+        if (jToggleButtonBarra7.isSelected()) {
+            jToggleButtonBarra7.setBackground(redPerso);
+            totalClientes++;
+            clientesBarra++;
+        } else {
+            jToggleButtonBarra7.setBackground(greenPerso);
+            totalClientes--;
+            clientesBarra--;
+        }
+        if (totalClientes <= 60 && clientesBarra <=12) {
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
+        } else {
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
+        }
+    }//GEN-LAST:event_jToggleButtonBarra7ActionPerformed
+
+    private void jToggleButtonBarra8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButtonBarra8ActionPerformed
+        if (jToggleButtonBarra8.isSelected()) {
+            jToggleButtonBarra8.setBackground(redPerso);
+            totalClientes++;
+            clientesBarra++;
+        } else {
+            jToggleButtonBarra8.setBackground(greenPerso);
+            totalClientes--;
+            clientesBarra--;
+        }
+        if (totalClientes <= 60 && clientesBarra <=12) {
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
+        } else {
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
+        }
+    }//GEN-LAST:event_jToggleButtonBarra8ActionPerformed
+
+    private void jToggleButtonBarra9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButtonBarra9ActionPerformed
+        if (jToggleButtonBarra9.isSelected()) {
+            jToggleButtonBarra9.setBackground(redPerso);
+            totalClientes++;
+            clientesBarra++;
+        } else {
+            jToggleButtonBarra9.setBackground(greenPerso);
+            totalClientes--;
+            clientesBarra--;
+        }
+        if (totalClientes <= 60 && clientesBarra <=12) {
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
+        } else {
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
+        }
+    }//GEN-LAST:event_jToggleButtonBarra9ActionPerformed
+
+    private void jToggleButtonBarra10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButtonBarra10ActionPerformed
+        if (jToggleButtonBarra10.isSelected()) {
+            jToggleButtonBarra10.setBackground(redPerso);
+            totalClientes++;
+            clientesBarra++;
+        } else {
+            jToggleButtonBarra10.setBackground(greenPerso);
+            totalClientes--;
+            clientesBarra--;
+        }
+        if (totalClientes <= 60 && clientesBarra <=12) {
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
+        } else {
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
+        }
+    }//GEN-LAST:event_jToggleButtonBarra10ActionPerformed
+
+    private void jToggleButtonBarra11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButtonBarra11ActionPerformed
+        if (jToggleButtonBarra11.isSelected()) {
+            jToggleButtonBarra11.setBackground(redPerso);
+            totalClientes++;
+            clientesBarra++;
+        } else {
+            jToggleButtonBarra11.setBackground(greenPerso);
+            totalClientes--;
+            clientesBarra--;
+        }
+        if (totalClientes <= 60 && clientesBarra <=12) {
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
+        } else {
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
+        }
+    }//GEN-LAST:event_jToggleButtonBarra11ActionPerformed
+
+    private void jToggleButtonBarra12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButtonBarra12ActionPerformed
+        if (jToggleButtonBarra12.isSelected()) {
+            jToggleButtonBarra12.setBackground(redPerso);
+            totalClientes++;
+            clientesBarra++;
+        } else {
+            jToggleButtonBarra12.setBackground(greenPerso);
+            totalClientes--;
+            clientesBarra--;
+        }
+        if (totalClientes <= 60 && clientesBarra <=12) {
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
+        } else {
+            jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
+            jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
+        }
+    }//GEN-LAST:event_jToggleButtonBarra12ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -557,6 +1008,7 @@ public class Restaurante extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> jComboBoxCapacidad7;
     private javax.swing.JComboBox<String> jComboBoxCapacidad8;
     private javax.swing.JComboBox<String> jComboBoxCapacidad9;
+    private javax.swing.JLabel jLabelBarra;
     private javax.swing.JLabel jLabelEnBarra;
     private javax.swing.JLabel jLabelEnMesa;
     private javax.swing.JLabel jLabelMesa1;
@@ -572,5 +1024,17 @@ public class Restaurante extends javax.swing.JFrame {
     private javax.swing.JLabel jLabelMesa8;
     private javax.swing.JLabel jLabelMesa9;
     private javax.swing.JLabel jLabelTotalClientes;
+    private javax.swing.JToggleButton jToggleButtonBarra1;
+    private javax.swing.JToggleButton jToggleButtonBarra10;
+    private javax.swing.JToggleButton jToggleButtonBarra11;
+    private javax.swing.JToggleButton jToggleButtonBarra12;
+    private javax.swing.JToggleButton jToggleButtonBarra2;
+    private javax.swing.JToggleButton jToggleButtonBarra3;
+    private javax.swing.JToggleButton jToggleButtonBarra4;
+    private javax.swing.JToggleButton jToggleButtonBarra5;
+    private javax.swing.JToggleButton jToggleButtonBarra6;
+    private javax.swing.JToggleButton jToggleButtonBarra7;
+    private javax.swing.JToggleButton jToggleButtonBarra8;
+    private javax.swing.JToggleButton jToggleButtonBarra9;
     // End of variables declaration//GEN-END:variables
 }
