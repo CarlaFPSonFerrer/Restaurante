@@ -93,53 +93,89 @@ public class Restaurante extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jLabelMesa1.setBackground(new java.awt.Color(102, 255, 102));
+        jLabelMesa1.setForeground(new java.awt.Color(0, 0, 0));
         jLabelMesa1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMesa1.setText("Mesa 1");
-        jLabelMesa1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabelMesa1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, java.awt.Color.blue, java.awt.Color.blue, java.awt.Color.blue, java.awt.Color.blue));
+        jLabelMesa1.setOpaque(true);
 
+        jLabelMesa2.setBackground(new java.awt.Color(102, 255, 102));
+        jLabelMesa2.setForeground(new java.awt.Color(0, 0, 0));
         jLabelMesa2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMesa2.setText("Mesa 2");
-        jLabelMesa2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabelMesa2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, java.awt.Color.blue, java.awt.Color.blue, java.awt.Color.blue, java.awt.Color.blue));
+        jLabelMesa2.setOpaque(true);
 
+        jLabelMesa3.setBackground(new java.awt.Color(102, 255, 102));
+        jLabelMesa3.setForeground(new java.awt.Color(0, 0, 0));
         jLabelMesa3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMesa3.setText("Mesa 3");
-        jLabelMesa3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabelMesa3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, java.awt.Color.pink, java.awt.Color.pink, java.awt.Color.pink, java.awt.Color.pink));
+        jLabelMesa3.setOpaque(true);
 
+        jLabelMesa4.setBackground(new java.awt.Color(102, 255, 102));
+        jLabelMesa4.setForeground(new java.awt.Color(0, 0, 0));
         jLabelMesa4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMesa4.setText("Mesa 4");
-        jLabelMesa4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabelMesa4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, java.awt.Color.pink, java.awt.Color.pink, java.awt.Color.pink, java.awt.Color.pink));
+        jLabelMesa4.setOpaque(true);
 
+        jLabelMesa5.setBackground(new java.awt.Color(102, 255, 102));
+        jLabelMesa5.setForeground(new java.awt.Color(0, 0, 0));
         jLabelMesa5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMesa5.setText("Mesa 5");
-        jLabelMesa5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabelMesa5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, java.awt.Color.pink, java.awt.Color.pink, java.awt.Color.pink, java.awt.Color.pink));
+        jLabelMesa5.setOpaque(true);
 
+        jLabelMesa6.setBackground(new java.awt.Color(102, 255, 102));
+        jLabelMesa6.setForeground(new java.awt.Color(0, 0, 0));
         jLabelMesa6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMesa6.setText("Mesa 6");
-        jLabelMesa6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabelMesa6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, java.awt.Color.pink, java.awt.Color.pink, java.awt.Color.pink, java.awt.Color.pink));
+        jLabelMesa6.setOpaque(true);
 
+        jLabelMesa7.setBackground(new java.awt.Color(102, 255, 102));
+        jLabelMesa7.setForeground(new java.awt.Color(0, 0, 0));
         jLabelMesa7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMesa7.setText("Mesa 7");
-        jLabelMesa7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabelMesa7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, java.awt.Color.pink, java.awt.Color.pink, java.awt.Color.pink, java.awt.Color.pink));
+        jLabelMesa7.setOpaque(true);
 
+        jLabelMesa8.setBackground(new java.awt.Color(102, 255, 102));
+        jLabelMesa8.setForeground(new java.awt.Color(0, 0, 0));
         jLabelMesa8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMesa8.setText("Mesa 8");
-        jLabelMesa8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabelMesa8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, java.awt.Color.pink, java.awt.Color.pink, java.awt.Color.pink, java.awt.Color.pink));
+        jLabelMesa8.setOpaque(true);
 
+        jLabelMesa9.setBackground(new java.awt.Color(102, 255, 102));
+        jLabelMesa9.setForeground(new java.awt.Color(0, 0, 0));
         jLabelMesa9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMesa9.setText("Mesa 9");
-        jLabelMesa9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabelMesa9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(153, 0, 153), new java.awt.Color(153, 0, 153), new java.awt.Color(153, 0, 153), new java.awt.Color(153, 0, 153)));
+        jLabelMesa9.setOpaque(true);
 
+        jLabelMesa10.setBackground(new java.awt.Color(102, 255, 102));
+        jLabelMesa10.setForeground(new java.awt.Color(0, 0, 0));
         jLabelMesa10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMesa10.setText("Mesa 10");
-        jLabelMesa10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabelMesa10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(153, 0, 153), new java.awt.Color(153, 0, 153), new java.awt.Color(153, 0, 153), new java.awt.Color(153, 0, 153)));
+        jLabelMesa10.setOpaque(true);
 
+        jLabelMesa11.setBackground(new java.awt.Color(102, 255, 102));
+        jLabelMesa11.setForeground(new java.awt.Color(0, 0, 0));
         jLabelMesa11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMesa11.setText("Mesa 11");
-        jLabelMesa11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabelMesa11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(153, 0, 153), new java.awt.Color(153, 0, 153), new java.awt.Color(153, 0, 153), new java.awt.Color(153, 0, 153)));
+        jLabelMesa11.setOpaque(true);
 
+        jLabelMesa12.setBackground(new java.awt.Color(102, 255, 102));
+        jLabelMesa12.setForeground(new java.awt.Color(0, 0, 0));
         jLabelMesa12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMesa12.setText("Mesa 12");
-        jLabelMesa12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabelMesa12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(153, 0, 153), new java.awt.Color(153, 0, 153), new java.awt.Color(153, 0, 153), new java.awt.Color(153, 0, 153)));
+        jLabelMesa12.setOpaque(true);
 
         jComboBoxCapacidad1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2" }));
         jComboBoxCapacidad1.addActionListener(new java.awt.event.ActionListener() {
@@ -234,9 +270,12 @@ public class Restaurante extends javax.swing.JFrame {
         jLabelEnBarra.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabelEnBarra.setText("En barra: 0/12");
 
+        jLabelBarra.setBackground(new java.awt.Color(204, 153, 255));
+        jLabelBarra.setForeground(new java.awt.Color(0, 0, 0));
         jLabelBarra.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabelBarra.setText("Barra 0/12");
+        jLabelBarra.setText("Barra");
         jLabelBarra.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabelBarra.setOpaque(true);
 
         jToggleButtonBarra1.setBackground(new java.awt.Color(102, 255, 102));
         jToggleButtonBarra1.addActionListener(new java.awt.event.ActionListener() {
@@ -443,15 +482,16 @@ public class Restaurante extends javax.swing.JFrame {
                         .addComponent(jLabelEnMesa)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jLabelEnBarra)))
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jComboBoxCapacidad3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jComboBoxCapacidad4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jComboBoxCapacidad5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addGap(52, 52, 52)
+                                .addGap(6, 6, 6)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jComboBoxCapacidad3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jComboBoxCapacidad4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jComboBoxCapacidad5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(46, 46, 46)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabelMesa6, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -472,7 +512,7 @@ public class Restaurante extends javax.swing.JFrame {
                                             .addComponent(jComboBoxCapacidad1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(jComboBoxCapacidad2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                             .addGroup(layout.createSequentialGroup()
-                                .addGap(18, 18, 18)
+                                .addGap(44, 44, 44)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addComponent(jLabelMesa9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(jLabelMesa10, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -504,7 +544,7 @@ public class Restaurante extends javax.swing.JFrame {
                                 .addComponent(jToggleButtonBarra5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addComponent(jToggleButtonBarra6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 423, Short.MAX_VALUE)
                         .addComponent(jToggleButtonBarra1, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabelBarra, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -519,11 +559,17 @@ public class Restaurante extends javax.swing.JFrame {
         totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
         clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
         if (clientesMesa <= 54 && totalClientes <= 60) {
+            if (jComboBoxCapacidad9.getSelectedIndex() > 0) {
+                jLabelMesa9.setBackground(redPerso);
+            } else {
+                jLabelMesa9.setBackground(greenPerso);
+            }
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         } else {
             JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa/establecimiento.");
             jComboBoxCapacidad9.setSelectedIndex(0);
+            jLabelMesa9.setBackground(greenPerso);
             mesa9 = Integer.parseInt(jComboBoxCapacidad9.getSelectedItem().toString());
             totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
             clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
@@ -538,11 +584,17 @@ public class Restaurante extends javax.swing.JFrame {
         totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
         clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
         if (clientesMesa <= 54 && totalClientes <= 60) {
+            if (jComboBoxCapacidad10.getSelectedIndex() > 0) {
+                jLabelMesa10.setBackground(redPerso);
+            } else {
+                jLabelMesa10.setBackground(greenPerso);
+            }
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         } else {
             JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa/establecimiento.");
             jComboBoxCapacidad10.setSelectedIndex(0);
+            jLabelMesa10.setBackground(greenPerso);
             mesa10 = Integer.parseInt(jComboBoxCapacidad10.getSelectedItem().toString());
             totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
             clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
@@ -556,11 +608,17 @@ public class Restaurante extends javax.swing.JFrame {
         totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
         clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
         if (clientesMesa <= 54 && totalClientes <= 60) {
+            if (jComboBoxCapacidad11.getSelectedIndex() > 0) {
+                jLabelMesa11.setBackground(redPerso);
+            } else {
+                jLabelMesa11.setBackground(greenPerso);
+            }
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         } else {
             JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa/establecimiento.");
             jComboBoxCapacidad11.setSelectedIndex(0);
+            jLabelMesa11.setBackground(greenPerso);
             mesa11 = Integer.parseInt(jComboBoxCapacidad11.getSelectedItem().toString());
             totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
             clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
@@ -574,11 +632,17 @@ public class Restaurante extends javax.swing.JFrame {
         totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
         clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
         if (clientesMesa <= 54 && totalClientes <= 60) {
+            if (jComboBoxCapacidad12.getSelectedIndex() > 0) {
+                jLabelMesa12.setBackground(redPerso);
+            } else {
+                jLabelMesa12.setBackground(greenPerso);
+            }
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         } else {
             JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa/establecimiento.");
             jComboBoxCapacidad12.setSelectedIndex(0);
+            jLabelMesa12.setBackground(greenPerso);
             mesa12 = Integer.parseInt(jComboBoxCapacidad12.getSelectedItem().toString());
             totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
             clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
@@ -592,11 +656,17 @@ public class Restaurante extends javax.swing.JFrame {
         totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
         clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
         if (clientesMesa <= 54 && totalClientes <= 60) {
+            if (jComboBoxCapacidad1.getSelectedIndex() > 0) {
+                jLabelMesa1.setBackground(redPerso);
+            } else {
+                jLabelMesa1.setBackground(greenPerso);
+            }
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         } else {
             JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa/establecimiento.");
             jComboBoxCapacidad1.setSelectedIndex(0);
+            jLabelMesa1.setBackground(greenPerso);
             mesa1 = Integer.parseInt(jComboBoxCapacidad1.getSelectedItem().toString());
             totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
             clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
@@ -610,11 +680,17 @@ public class Restaurante extends javax.swing.JFrame {
         totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
         clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
         if (clientesMesa <= 54 && totalClientes <= 60) {
+            if (jComboBoxCapacidad2.getSelectedIndex() > 0) {
+                jLabelMesa2.setBackground(redPerso);
+            } else {
+                jLabelMesa2.setBackground(greenPerso);
+            }
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         } else {
             JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa/establecimiento.");
             jComboBoxCapacidad2.setSelectedIndex(0);
+            jLabelMesa2.setBackground(greenPerso);
             mesa2 = Integer.parseInt(jComboBoxCapacidad2.getSelectedItem().toString());
             totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
             clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
@@ -628,11 +704,17 @@ public class Restaurante extends javax.swing.JFrame {
         totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
         clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
         if (clientesMesa <= 54 && totalClientes <= 60) {
+            if (jComboBoxCapacidad3.getSelectedIndex() > 0) {
+                jLabelMesa3.setBackground(redPerso);
+            } else {
+                jLabelMesa3.setBackground(greenPerso);
+            }
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         } else {
             JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa/establecimiento.");
             jComboBoxCapacidad3.setSelectedIndex(0);
+            jLabelMesa3.setBackground(greenPerso);
             mesa3 = Integer.parseInt(jComboBoxCapacidad3.getSelectedItem().toString());
             totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
             clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
@@ -646,11 +728,17 @@ public class Restaurante extends javax.swing.JFrame {
         totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
         clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
         if (clientesMesa <= 54 && totalClientes <= 60) {
+            if (jComboBoxCapacidad4.getSelectedIndex() > 0) {
+                jLabelMesa4.setBackground(redPerso);
+            } else {
+                jLabelMesa4.setBackground(greenPerso);
+            }
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         } else {
             JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa/establecimiento.");
             jComboBoxCapacidad4.setSelectedIndex(0);
+            jLabelMesa4.setBackground(greenPerso);
             mesa4 = Integer.parseInt(jComboBoxCapacidad4.getSelectedItem().toString());
             totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
             clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
@@ -664,11 +752,17 @@ public class Restaurante extends javax.swing.JFrame {
         totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
         clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
         if (clientesMesa <= 54 && totalClientes <= 60) {
+            if (jComboBoxCapacidad5.getSelectedIndex() > 0) {
+                jLabelMesa5.setBackground(redPerso);
+            } else {
+                jLabelMesa5.setBackground(greenPerso);
+            }
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         } else {
             JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa/establecimiento.");
             jComboBoxCapacidad5.setSelectedIndex(0);
+            jLabelMesa5.setBackground(greenPerso);
             mesa5 = Integer.parseInt(jComboBoxCapacidad5.getSelectedItem().toString());
             totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
             clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
@@ -682,11 +776,17 @@ public class Restaurante extends javax.swing.JFrame {
         totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
         clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
         if (clientesMesa <= 54 && totalClientes <= 60) {
+            if (jComboBoxCapacidad6.getSelectedIndex() > 0) {
+                jLabelMesa6.setBackground(redPerso);
+            } else {
+                jLabelMesa6.setBackground(greenPerso);
+            }
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         } else {
             JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa/establecimiento.");
             jComboBoxCapacidad6.setSelectedIndex(0);
+            jLabelMesa6.setBackground(greenPerso);
             mesa6 = Integer.parseInt(jComboBoxCapacidad6.getSelectedItem().toString());
             totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
             clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
@@ -700,11 +800,17 @@ public class Restaurante extends javax.swing.JFrame {
         totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
         clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
         if (clientesMesa <= 54 && totalClientes <= 60) {
+            if (jComboBoxCapacidad7.getSelectedIndex() > 0) {
+                jLabelMesa7.setBackground(redPerso);
+            } else {
+                jLabelMesa7.setBackground(greenPerso);
+            }
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         } else {
             JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa/establecimiento.");
             jComboBoxCapacidad7.setSelectedIndex(0);
+            jLabelMesa7.setBackground(greenPerso);
             mesa7 = Integer.parseInt(jComboBoxCapacidad7.getSelectedItem().toString());
             totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
             clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
@@ -718,11 +824,17 @@ public class Restaurante extends javax.swing.JFrame {
         totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
         clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
         if (clientesMesa <= 54 && totalClientes <= 60) {
+            if (jComboBoxCapacidad8.getSelectedIndex() > 0) {
+                jLabelMesa8.setBackground(redPerso);
+            } else {
+                jLabelMesa8.setBackground(greenPerso);
+            }
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnMesa.setText("En mesa: " + clientesMesa + "/54");
         } else {
             JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en mesa/establecimiento.");
             jComboBoxCapacidad8.setSelectedIndex(0);
+            jLabelMesa8.setBackground(greenPerso);
             mesa8 = Integer.parseInt(jComboBoxCapacidad8.getSelectedItem().toString());
             totalClientes = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12 + clientesBarra;
             clientesMesa = mesa1 + mesa2 + mesa3 + mesa4 + mesa5 + mesa6 + mesa7 + mesa8 + mesa9 + mesa10 + mesa11 + mesa12;
@@ -745,6 +857,11 @@ public class Restaurante extends javax.swing.JFrame {
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
         } else {
+            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en el establecimiento.");
+            jToggleButtonBarra2.setSelected(false);
+            jToggleButtonBarra2.setBackground(greenPerso);
+            totalClientes--;
+            clientesBarra--;
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
         }
@@ -755,7 +872,6 @@ public class Restaurante extends javax.swing.JFrame {
             jToggleButtonBarra1.setBackground(redPerso);
             totalClientes++;
             clientesBarra++;
-            
         } else {
             jToggleButtonBarra1.setBackground(greenPerso);
             totalClientes--;
@@ -765,6 +881,11 @@ public class Restaurante extends javax.swing.JFrame {
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
         } else {
+            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en el establecimiento.");
+            jToggleButtonBarra1.setSelected(false);
+            jToggleButtonBarra1.setBackground(greenPerso);
+            totalClientes--;
+            clientesBarra--;
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
         }
@@ -784,6 +905,11 @@ public class Restaurante extends javax.swing.JFrame {
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
         } else {
+            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en el establecimiento.");
+            jToggleButtonBarra3.setSelected(false);
+            jToggleButtonBarra3.setBackground(greenPerso);
+            totalClientes--;
+            clientesBarra--;
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
         }    
@@ -803,6 +929,11 @@ public class Restaurante extends javax.swing.JFrame {
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
         } else {
+            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en el establecimiento.");
+            jToggleButtonBarra4.setSelected(false);
+            jToggleButtonBarra4.setBackground(greenPerso);
+            totalClientes--;
+            clientesBarra--;
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
         }
@@ -822,6 +953,11 @@ public class Restaurante extends javax.swing.JFrame {
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
         } else {
+            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en el establecimiento.");
+            jToggleButtonBarra5.setSelected(false);
+            jToggleButtonBarra5.setBackground(greenPerso);
+            totalClientes--;
+            clientesBarra--;
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
         }
@@ -841,6 +977,11 @@ public class Restaurante extends javax.swing.JFrame {
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
         } else {
+            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en el establecimiento.");
+            jToggleButtonBarra6.setSelected(false);
+            jToggleButtonBarra6.setBackground(greenPerso);
+            totalClientes--;
+            clientesBarra--;
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
         }
@@ -860,6 +1001,11 @@ public class Restaurante extends javax.swing.JFrame {
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
         } else {
+            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en el establecimiento.");
+            jToggleButtonBarra7.setSelected(false);
+            jToggleButtonBarra7.setBackground(greenPerso);
+            totalClientes--;
+            clientesBarra--;
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
         }
@@ -879,6 +1025,11 @@ public class Restaurante extends javax.swing.JFrame {
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
         } else {
+            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en el establecimiento.");
+            jToggleButtonBarra8.setSelected(false);
+            jToggleButtonBarra8.setBackground(greenPerso);
+            totalClientes--;
+            clientesBarra--;
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
         }
@@ -898,6 +1049,11 @@ public class Restaurante extends javax.swing.JFrame {
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
         } else {
+            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en el establecimiento.");
+            jToggleButtonBarra9.setSelected(false);
+            jToggleButtonBarra9.setBackground(greenPerso);
+            totalClientes--;
+            clientesBarra--;
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
         }
@@ -917,6 +1073,11 @@ public class Restaurante extends javax.swing.JFrame {
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
         } else {
+            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en el establecimiento.");
+            jToggleButtonBarra10.setSelected(false);
+            jToggleButtonBarra10.setBackground(greenPerso);
+            totalClientes--;
+            clientesBarra--;
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
         }
@@ -936,6 +1097,11 @@ public class Restaurante extends javax.swing.JFrame {
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
         } else {
+            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en el establecimiento.");
+            jToggleButtonBarra11.setSelected(false);
+            jToggleButtonBarra11.setBackground(greenPerso);
+            totalClientes--;
+            clientesBarra--;
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
         }
@@ -955,6 +1121,11 @@ public class Restaurante extends javax.swing.JFrame {
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
         } else {
+            JOptionPane.showMessageDialog(null, "Se ha alcanzado el máximo en el establecimiento.");
+            jToggleButtonBarra12.setSelected(false);
+            jToggleButtonBarra12.setBackground(greenPerso);
+            totalClientes--;
+            clientesBarra--;
             jLabelTotalClientes.setText("Total clientes: " + totalClientes + "/60");
             jLabelEnBarra.setText("En barra: " + clientesBarra + "/12");
         }
